@@ -3,7 +3,7 @@
 
 $ErrorActionPreference = "Stop"
 
-$RepoName = "github.com/segfaultdev/ssshu"
+$RepoName = "github.com/segfaultuwu/ssshu"
 $BinaryName = "ssshu.exe"
 
 Write-Host ""
@@ -46,7 +46,7 @@ if (Test-Path $InstallDir) {
 else {
     Write-Host "Cloning repository..." -ForegroundColor Yellow
 
-    git clone https://github.com/segfaultdev/ssshu.git $InstallDir
+    git clone https://github.com/segfaultuwu/ssshu.git $InstallDir
 
     Set-Location $InstallDir
 }
